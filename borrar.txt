@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Dropdown On Hover Plugin Demos</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-dropdownhover.css">
+<style>
+body { background-color:#eee;}
+.dropdown-inline {
+	display: inline-block;
+	position: relative;
+}
+</style>
+</head>
+<body><div id="jquery-script-menu"></div>
+<div class="bs-demo-dropdowns text-center" style="margin-top:150px;">
+        <div class="container">\n';
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Diseño de datos variables (edición)<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Parametros<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+<li><a href='#'>Situaciones Especiales</a></li>
+<li><a href='#'>Formularios</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Aplicaciones >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Diseño de Pantallas</a></li>
+	<li><a href='#'>ABM Procedimientos</a></li>
+	<li><a href='#'>ABM Grillas</a></li>
+	<li><a href='#'>ABM Listas</a></li>
+	<li><a href='#'>ABM Filtros</a></li>
+	<li><a href='#'>ABM de Imagenes</a></li>
+	<li><a href='#'>ABM Mails Tributos</a></li>
+	<li><a href='#'>Datos Variables</a></li>
+	<li><a href='#'>ABM Funciones Perfiles</a></li>
+	</ul>
+</li>
+
+<li class='dropdown'>
+	<a href='#'>Seguridad >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>ABM Menu</a></li>
+	<li><a href='#'>ABM Perfil</a></li>
+	<li><a href='#'>Adm. Usuarios</a></li>
+	<li><a href='#'>Listado de Usuarios y Perfiles</a></li>
+	<li><a href='#'>Listado de Menús y Perfiles</a></li>
+	</ul>
+</li>
+<li><a href='#'>Inmobiliario</a></li>
+<li><a href='#'>Tasas Retributivas</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Domicilios >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>ABM Calles</a></li>
+	<li><a href='#'>Partidos - Localidades</a></li>
+	<li><a href='#'>Equivalencias Calles</a></li>
+	<li><a href='#'>Equivalencias Localidades</a></li>
+	<li><a href='#'>ABM Calles Diferenciales</a></li>
+	<li><a href='#'>ABM Zonas de Distribución</a></li>
+	<li><a href='#'>Validar Sincronizacion Callejero</a></li>
+	<li><a href='#'>Sincronizar Calle GIS</a></li>
+	</ul>
+</li>
+
+<li class='dropdown'>
+	<a href='#'>Generales >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Parametros y Tablas Generales</a></li>
+	<li><a href='#'>Tributos - Conceptos</a></li>
+	<li><a href='#'>Feriados</a></li>
+	<li><a href='#'>Calendario Fiscal</a></li>
+	<li><a href='#'>Gestión de Deudas</a></li>
+	<li><a href='#'>Recaudación Presupuestada</a></li>
+	<li><a href='#'>ABM Ubicaciones</a></li>
+	<li><a href='#'>ABM Notificaciones</a></li>
+	<li><a href='#'>Calendario de Distribución</a></li>
+	<li><a href='#'>Parametrizacion de Solicitudes</a></li>
+	<li><a href='#'>Formulas de Liquidación</a></li>
+	<li><a href='#'>ABM Tipos de Reportes</a></li>
+	<li><a href='#'>Tipos de Liquidaciones de Oficio</a></li>
+	<li><a href='#'>Ubicaciones Disponibles</a></li>
+	</ul>
+</li>
+
+<li class='dropdown'>
+	<a href='#'>Tesorería y Control Prev. >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Bancos</a></li>
+	<li><a href='#'>Tasa de Interes</a></li>
+	<li><a href='#'>Cotizaciones</a></li>
+	<li><a href='#'>Indices de Actualización</a></li>
+	<li><a href='#'>Comisiones Bancarias</a></li>
+	<li><a href='#'>Relaciones Tributo Cuenta Contable</a></li>
+	<li><a href='#'>Intereses de Tarjetas</a></li>
+	<li><a href='#'>ABM de Posnets</a></li>
+	</ul>
+</li>
+<li><a href='#'>Prueba Escritura Disco</a></li>
+<li><a href='#'>ABM Notificadores</a></li>
+<li><a href='#'>Carga de Archivos</a></li>
+<li><a href='#'>Alícuotas</a></li>
+<li><a href='#'>Funciones de Selección</a></li>
+<li><a href='#'>ABM Apoderados</a></li>
+<li><a href='#'>Calendario Tributario 2019</a></li>
+<li><a href='#'>Verificación de Datos Contacto</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Ordenanzas>><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Ordenanza Fiscal 2019</a></li>
+	<li><a href='#'>Ordenanza Impositiva 2019</a></li>
+	</ul>
+</li>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Menú principal<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Salir<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Objetos<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+<li><a href='#'>Contribuyentes - Tributos - Objetos</a></li>
+<li><a href='#'>Baja de Objeto</a></li>
+<li><a href='#'>Observaciones de Objetos</a></li>
+<li><a href='#'>Alta y Modificación de Objetos</a></li>
+<li><a href='#'>Division de Objetos</a></li>
+<li><a href='#'>Transferencia de Objetos</a></li>
+<li><a href='#'>Ceses</a></li>
+<li><a href='#'>Modificación Domicilio</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Consultas>><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Deuda de Cocherias</a></li>
+	<li><a href='#'>Consulta de Objetos</a></li>
+	<li><a href='#'>Objetos sin Inscripción</a></li>
+	<li><a href='#'>Consulta de Modificaciones de Objetos</a></li>
+	<li><a href='#'>Consulta de Altas/Bajas de Objetos</a></li>
+	<li><a href='#'>Consulta de Calles Avellaneda</a></li>
+	<li><a href='#'>Listado de Altas/Bajas de Objetos</a></li>
+	<li><a href='#'>Listado de Carteles Publicidad y Propaganda</a></li>
+	</ul>
+</li>
+<li><a href='#'>Aprobar Solicitud G.I.S.</a></li>
+<li><a href='#'>Procesar Solicitud G.I.S.</a></li>
+<li><a href='#'>Cargar Datos Adicionales</a></li>
+<li><a href='#'>Unificación</a></li>
+<li><a href='#'>Subastas Judiciales</a></li>
+<li><a href='#'>Categoría de Padrones</a></li>
+<li><a href='#'>ABM Tributos - Tipos de Objeto</a></li>
+<li><a href='#'>ABM Cocherías</a></li>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>Contribuyentes<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+
+<li class='dropdown'>
+	<a href='#'>Interfaces >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Municipalizacion de Patentes</a></li>
+	<li><a href='#'>Interfaces de Contribuyentes y Objetos</a></li>
+	</ul>
+</li>
+<li><a href='#'>Alta y Modificación de Contribuyentes</a></li>
+<li><a href='#'>Baja de Contribuyente</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Consultas >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Consulta de Modificaciones de Contribuyentes</a></li>
+	<li><a href='#'>Consulta de Altas/Bajas de Contribuyente</a></li>
+	<li><a href='#'>Consulta de Datos Faltantes de Contribuyentes</a></li>
+	<li><a href='#'>Consulta de Situación Tributaria</a></li>
+	<li><a href='#'>Listado de Contribuyentes Eximidos</a></li>
+	<li><a href='#'>Consulta de CUIT</a></li>
+	<li><a href='#'>Consulta Notificaciones de Domicilios Erroneos</a></li>
+	</ul>
+</li>
+<li><a href='#'>Modificacion de Domicilios Postales</a></li>
+<li><a href='#'>Inscripción Débito Automático</a></li>
+<li><a href='#'>Unificación de Contribuyentes</a></li>
+<li><a href='#'>Modificar Tipo de Contribuyente Masivo</a></li>
+<li><a href='#'>Estado de deuda resumido</a></li>
+<li><a href='#'>Modificar Contactos</a></li>
+<li><a href='#'>Modificar Tipo de Persona</a></li>
+<li><a href='#'>Cambiar Categoría Contribuyente</a></li>
+
+	</ul>
+</div>
+
+
+<div class='dropdown dropdown-inline'>
+   <a href='#' class='btn btn-default dropdown-toggle' data-toggle='dropdown' data-hover='dropdown'>DDJJ<span class='caret'></span></a>
+	<ul class='dropdown-menu' role='menu'>
+<li><a href='#'>Ingreso DDJJ Detalle</a></li>
+<li><a href='#'>Aprobación de DDJJ</a></li>
+<li><a href='#'>Anulación de DDJJ</a></li>
+<li><a href='#'>Imprimir F10</a></li>
+<li><a href='#'>Ingreso DJ por Código</a></li>
+<li><a href='#'>Consulta Detalle de DDJJ</a></li>
+<li><a href='#'>Ingreso DDJJ Puntual</a></li>
+<li><a href='#'>Ingreso DDJJ (publicidad y propaganda)</a></li>
+<li><a href='#'>Ingreso DDJJ</a></li>
+
+<li class='dropdown'>
+	<a href='#'>Consultas >><span class='caret'></span></a>
+	<ul class='dropdown-menu dropdownhover-right'>
+	<li><a href='#'>Consulta de DDJJ por contribuyente</a></li>
+	<li><a href='#'>Consulta Bases Imponibles</a></li>
+	<li><a href='#'>Consulta de modalidad de presentación de DDJJ</a></li>
+	<li><a href='#'>Consulta resumida de DDJJ por cuota</a></li>
+	</ul>
+</li>
+
+	</ul>
+</div>
+
+</div></div></body></html>
+
